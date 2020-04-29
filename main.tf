@@ -10,7 +10,7 @@ provider "aws" {
 # Variables
 # ---------------------------------------------------------------------------------------------------------------------
 locals {
-  sonar_postgre_sql_db_version = "11.5"
+  sonar_postgre_sql_db_version = "11.6"
   sonar_postgre_sql_port       = 5432
   sonar_postgre_sql_db         = "sonar"
   sonar_db_instance_size       = "db.r4.large"
